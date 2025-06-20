@@ -1,0 +1,84 @@
+/* ---------- Base Styles ---------- */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 0;
+  background-color: #f0f0f5;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  background-color: #007BFF;
+  color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+section {
+  margin-bottom: 3rem;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+h2 {
+  color: #007BFF;
+}
+
+/* ---------- Buttons ---------- */
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* ---------- Carousel ---------- */
+.carousel img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+.buttons {
+  margin-top: 1rem;
+}
+
+/* ---------- Quiz Styles ---------- */
+.question-block {
+  margin-bottom: 1.5rem;
+}
+
+/* ✅ Feedback Styling */
+.feedback {
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+/* ---------- Responsive Media Queries ---------- */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  section h2 {
+    font-size: 1.2rem;
+  }
+
+  button {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
