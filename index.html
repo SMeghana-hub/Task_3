@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interactive Responsive Site</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Responsive Design & JS Project</h1>
+  </header>
+
+  <section class="quiz-section">
+    <h2>Interactive Quiz</h2>
+    <div id="quiz-container"></div>
+    <button onclick="submitQuiz()">Submit Quiz</button>
+    <p id="quiz-result"></p>
+  </section>
+
+  <section class="carousel-section">
+    <h2>Image Carousel</h2>
+    <div class="carousel">
+      <img id="carousel-image" src="https://picsum.photos/id/1011/400/200" alt="Carousel">
+      <div class="buttons">
+        <button onclick="prevImage()">Previous</button>
+        <button onclick="nextImage()">Next</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="api-section">
+    <h2>Random Joke (From API)</h2>
+    <button onclick="getJoke()">Get Joke</button>
+    <p id="joke-output"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
